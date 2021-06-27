@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+  <title>Kriptografi - Enkripsi Kreasi</title>
+</head>
+
+<body>
+  <div class="ui container">
+    <div class="ui grid">
+
+      <div class="six wide column">
+        <div class="ui blue segment" style="margin-top: 5vh">
+          <h1>Tambah Data</h1>
+          <div class="ui form">
+            <div class="ui field">
+              <div class="ui input labeled fluid">
+                <div class="ui label">
+                  Nama
+                </div>
+                <input id="nama" type="text" />
+              </div>
+            </div>
+
+            <div class="ui field">
+              <div class="ui input labeled fluid">
+                <div class="ui label">
+                  Saldo
+                </div>
+                <input id="saldo" type="text" />
+              </div>
+            </div>
+            <div class="ui buttons fluid">
+              <button id="btnKirim" class="ui blue button">Kirim</button>
+              <div class="or" data-text="/"></div>
+              <button id="btnReset" class="ui red button">Reset</button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="ui segments">
+          <div class="ui purple segment">Info</div>
+          <div class="ui secondary segment" id="info">...</div>
+        </div>
+
+        <div class="ui segments">
+          <div class="ui green segment">Tips</div>
+          <div class="ui secondary segment">Klik salah satu baris untuk melihat dekripsi.</div>
+        </div>
+      </div>
+
+      <div class="ten wide column">
+        <div class="ui brown segment" style="margin-top: 5vh">
+          <h1>Database</h1>
+          <table class="ui celled selectable table center aligned">
+            <thead>
+              <tr>
+                <th class="collapsing">No</th>
+                <th>Nama</th>
+                <th>Saldo</th>
+              </tr>
+            </thead>
+            <tbody id="database">
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

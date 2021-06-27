@@ -1,0 +1,15 @@
+Simulasi Enkripsi Metode Transposisi 
+Myszkowski Cipher
+
+Dibuat dalam rangka memenuhi tugas UTS Kriptografi
+
+Oleh    : Mochammad Endyarroziqin
+NIM     : A11.2018.10980
+Kelas   : A11.4611 
+
+Buka index.html dengan browser
+
+silakan ubah plaintext dan key
+ciphertext akan berubah setelah memenuhi syarat berikut
+1. plaintext dan key tidak kosong
+2. jumlah karakter plaintext > jumlah unik karakter key
